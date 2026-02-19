@@ -1,5 +1,17 @@
 # Python Macro
 
+A Python GUI macro automation tool that lets users record and replay mouse and keyboard actions with a visual interface.
+
+## Overview
+This project provides an easy‑to‑use macro automation system built with Tkinter for Python. Users can define sequences of mouse and keyboard actions through an intuitive GUI, which can then be replayed automatically. Useful for productivity automation, repetitive tasks, and custom workflow scripting.
+
+## Features
+* GUI interface for recording and running mouse/keyboard macros
+* Multiple macro control windows
+* Customizable start/stop keys
+* Simple chronological macro editing
+* Works on Windows
+
 ## Installation  
 
 To use the program, you will first need to install a few modules. The modules are as following:  
@@ -11,11 +23,8 @@ To use the program, you will first need to install a few modules. The modules ar
 
 They can be installed with **pip**, a package-management system. You will need to open some sort of terminal.  
 
-**Windows 10**  
-On Windows 10, you must press **'Win + R'** and then type **'cmd'** and press **'enter'**.  
-
-**MacOS**  
-On Mac, you can press **'Control + Option + Shift + T'** to open a terminal.  
+**Windows**  
+On Windows, you must press **'Win + R'** and then type **'cmd'** and press **'enter'**.  
 
 Now you can download the modules, by typing the following commands:  
 
@@ -42,14 +51,11 @@ When starting the program, you will see a small window with **3 buttons:**
 * **Keyboard Macros**
 * **Settings**  
 
-Each button opens a new window with corresponding commands.  
-Click on buttons, and input in controls in **chronological order** to be later automatically done in repeat.    
-Click on the **Submit Button** to enter in any command you typed out. (You don't need to press the submit button to input controls added via buttons, only entries) and the **Close/Done** button to quit out of the window.  
-
-Finally, when you are done entering in your "List of Controls", close out of **all windows** and press the corresponding keys to start and stop the macro loop. Default start and stop keys are **'+'** and **'-'** but can be changed in the **Settings** window.  
+1. Select “Mouse Macros” or “Keyboard Macros”.  
+2. Enter your sequence of actions in order.  
+3. Press the submit button to save the macro sequence.  
+4. Use the start/stop keys (`+`/`–` by default) to run the macro loop.
 
 - If you would like to go back and edit the pre-set macro, press the default **'|'** key.
 
 **Have Fun!**      
-
-**Note:** The Copy&Paste System is only somewhat working at the moment - It doesn't copy over any pre-set variables such as **Start/Stop Keys** or **Clicks Per Second**
